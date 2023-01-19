@@ -3,6 +3,7 @@ export const arrayItems = [
     name: "Q&A",
     id: "q&a",
     description: "Answer questions based on existing knowledge",
+    prompt: "Answer questions based on existing knowledge",
     option: {
       model: "text-davinci-003",
       temperature: 0,
@@ -16,6 +17,7 @@ export const arrayItems = [
     name: "Grammer Correction",
     id: "grammerCorrection",
     description: "Corrects sentences into standard English.",
+    prompt: "Corrects sentences into standard English",
     option: {
       model: "text-davinci-003",
       temperature: 0,
@@ -29,6 +31,7 @@ export const arrayItems = [
     name: "Summarize for a 2nd grader",
     id: "summary",
     description: "Translates difficult text into simpler concepts.",
+    prompt: "Translates difficult text into simpler concepts",
     option: {
       model: "text-davinci-003",
       temperature: 0.7,
@@ -42,6 +45,7 @@ export const arrayItems = [
     name: "English to Other languages",
     id: "translate",
     description: "Translates English text into French, Spanish and Japanese.",
+    prompt: "Translates English text into French, Spanish and Japanese",
     option: {
       model: "text-davinci-003",
       temperature: 0.3,
@@ -55,6 +59,7 @@ export const arrayItems = [
     name: "Movie to Emoji",
     id: "movieToEmoji",
     description: "Convert movie titles into emoji.",
+    prompt: "Convert movie titles into emoji",
     option: {
       model: "text-davinci-003",
       temperature: 0,
@@ -68,6 +73,7 @@ export const arrayItems = [
     name: "Explain code",
     id: "explainCode",
     description: "Explain a complicated piece of code.",
+    prompt: "Explain a complicated piece of code",
     option: {
       model: "code-davinci-002",
       temperature: 0,
@@ -81,6 +87,7 @@ export const arrayItems = [
     name: "JavaScript to Python",
     id: "jstopy",
     description: "Convert simple JavaScript expressions into Python.",
+    prompt: "Convert simple JavaScript expressions into Python",
     option: {
       model: "code-davinci-002",
       temperature: 0,
