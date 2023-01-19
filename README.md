@@ -1,4 +1,4 @@
-<h1>Openai-Example</h1>
+<h1>AI-Helper</h1>
 <p>This project is a simple implementation of the GPT-3 API, built using Vite and React. It allows users to ask questions, translate languages, simplify text, correct grammar, summarize to a 2nd grade level, convert movie titles to emojis, and explain code, as well as convert JavaScript to Python.</p>
 <h2>Installation</h2>
 <ul>
