@@ -6,9 +6,10 @@ export default function OptionSelection({ arrayItems, selectOption }) {
       <h1 className="heading">React AI APP</h1>
 
       <div className="grid-main">
-        {arrayItems.map((item) => {
+        {arrayItems.map((item, key) => {
           return (
             <div
+              key={key}
               className="grid-child"
               onClick={() => selectOption(item.option)}
             >
